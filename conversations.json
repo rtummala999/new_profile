@@ -1,0 +1,118 @@
+[
+    {
+        "question": "hi",
+        "answer": "I don't know."
+    },
+    {
+        "question": "hi",
+        "answer": "I don't know."
+    },
+    {
+        "question": "hi",
+        "answer": "Hello! How can I assist you today?"
+    },
+    {
+        "question": "who is ramgopal tummala?",
+        "answer": "Ramgopal Tummala is a graduate student pursuing a Master's degree in Computer Science at Portland State University. He has experience as an AI and Data Engineer Intern at Rean Foundation, where he developed pipelines and built AI solutions. He has also worked as a Data Engineer at Xpertmatters in Hyderabad, India, focusing on ETL pipelines and data automation. Ramgopal possesses skills in various technologies including Azure, AWS, and Google Cloud Platform, along with programming languages such as Python, HTML, and JavaScript. He has completed certifications in Microsoft Azure Fundamentals and Microsoft Azure Data Fundamentals."
+    },
+    {
+        "question": "his experiences ",
+        "answer": "What is RAMGOPAL TUMMALA's current role, and since when has he been working at Rean Foundation?"
+    },
+    {
+        "question": "hey",
+        "answer": "I don't know."
+    },
+    {
+        "question": "hi",
+        "answer": "Hello! How can I assist you today?"
+    },
+    {
+        "question": "how you doing today ?",
+        "answer": "I don't know."
+    },
+    {
+        "question": "who is ramgopal tummala ?",
+        "answer": "Ramgopal Tummala is a Master's student in Computer Science at Portland State University, expected to graduate in June 2024. He has experience as an AI and Data Engineer Intern at Rean Foundation and previously worked as a Data Engineer at Xpertmatters in Hyderabad, India. He possesses skills in various technologies including Azure, AWS, GCP, Python, and SQL, and has worked on projects related to data processing, AI solutions, and automation of data pipelines. Additionally, he holds certifications in Microsoft Azure Fundamentals and Azure Data Fundamentals."
+    },
+    {
+        "question": "thank you",
+        "answer": "I don't know."
+    },
+    {
+        "question": "what is your model and the version ?",
+        "answer": "I don't know."
+    },
+    {
+        "question": "hi",
+        "answer": "Hello! How can I assist you today?"
+    },
+    {
+        "question": "who is ramgopal tummala?",
+        "answer": "Ramgopal Tummala is a professional with experience in the field of Computer Science, specifically focusing on areas such as data engineering, machine learning, artificial intelligence, internet web and cloud, and database management. He has pursued his M.S. in Computer Science from Portland State University, with coursework in the aforementioned fields. His skills include working with Azure, AWS, GCP, Python, HTML, JavaScript, C, Docker, Git, and various others.\n\nHis work experience includes working as an AI and Data Engineer Intern and an AI Developer Intern at Rean Foundation. In his roles, he developed API's, data pipelines, AI solutions, and performed jobs such as data extraction, transformation, and management, among others. He also has worked as a Data Engineer at Xpertmatters. \n\nHis projects include developing a system for automated validation and processing of order files with dynamic pipelines, creating a data pipeline for TriMet Transportation Analytics, and developing a PySpark-based pipeline for automated loan score calculation and data processing. He is also certified in Microsoft Azure Fundamentals and Microsoft Azure Data Fundamentals."
+    },
+    {
+        "question": "thank you ",
+        "answer": "You're welcome! If you have any other questions, feel free to ask."
+    },
+    {
+        "question": "his skills ?",
+        "answer": "Ramgopal Tummala has a range of skills in the realm of computer science and data engineering. These include: \n\n- AI and data engineering, demonstrated through his work implementing APIs, running AWS Lambda functions, and migrating jobs to AWS Glue.\n- AI programming and data integration, as he developed AI solutions using Langchain and created bots with chaining mechanisms.\n- Creating test plans, monitoring, and evaluating bot performance for high operational standards.\n- Implementation of CI/CD pipelines for continuous integration and deployment of data and AI models.\n- Data engineering with ETL pipelines, using Azure HDInsight, Azure Databricks, Azure Data Factory, and Azure Blob Storage with Databricks-PySpark.\n- Automation of data pipelines with Azure Data Factory and Databricks.\n- Development of a PySaprk-based Pipeline to automate loan score calculation, clean and process data and create structured data frames and tables.\n- Web development, illustrated by the design of a trip planning website with Google Location API.\n- Proficiency in a broad range of technologies like Azure, AWS, GCP, S3, Glue, Ec2, Athena, Snowflake, Databricks, Azure Data Factory, Azure Blob Storage, Hadoop, Pysark, Kafka, HBase, Airflow, MySQL, PostgreSQL, Pandas, Matplotlib, Seaborn, Python, HTML, JavaScript, C, Docker, Git, CI/CD, Postman API, Database Design, ETL Processes, and Python Scripting."
+    },
+    {
+        "question": "hi",
+        "answer": "Hello! How can I assist you today?"
+    },
+    {
+        "question": "who is ramgopal ?",
+        "answer": "Ramgopal Tummala is a currently pursuing an M.S. in Computer Science at Portland State University, with relevant coursework in areas such as Data Engineering, Machine Learning, and Artificial Intelligence. His skills include Python, Database Design, ETL Processes, and usage of various cloud and data tools like Azure, AWS, GCP, PostgreSQL, etc. He has worked as a Data Engineer at Xpertmatters and as an AI and Data Engineer Intern at Rean Foundation, helping to develop solutions and optimize operations. He also has experience with project work, such as developing data pipelines and automating processes."
+    },
+    {
+        "question": "his skills ?",
+        "answer": "Ramgopal is skilled in Azure, AWS, GCP, S3, Glue, Ec2, Athena, Snowflake, Databricks, Azure Data Factory, Azure Blob Storage, Data Lake Storage Gen2, Hadoop, Pysark, Kafka, HBase, Airflow, MySQL, PostgreSQL, Pandas, Matplotlib, Seaborn, Prompt Engineering, Langchain, Python, HTML, JavaScript, C, Docker, Git, CI/CD, Postman API, Database Design, Data Engineering, SQL Server, ETL Processes, Python Scripting. He has experience in developing AI solutions, analyzing business needs, optimizing AI model performance, implementing CI/CD pipelines, orchestrating and optimizing ETL pipelines, and automating data pipelines."
+    },
+    {
+        "question": "come again",
+        "answer": "Ramgopal Tummala is a Computer Science graduate from Portland State University. He has skills in various areas including Azure, AWS, GCP, Hadoop, Pysark, Kafka, Python, JavaScript, CI/CD, and data engineering among others. He has work experience as an AI and Data Engineer Intern and AI Developer Intern at the Rean Foundation and as a Data Engineer at Xpertmatters. He has also worked on various projects, including automated validation and processing of order files, and automated loan score calculation and data processing."
+    },
+    {
+        "question": "thank you ",
+        "answer": "You're welcome! If you have any other questions, feel free to ask."
+    },
+    {
+        "question": "his skills ?",
+        "answer": "The individual's skills include Azure, AWS, GCP, S3, Glue, Ec2, Athena, Snowflake, Databricks, Azure Data Factory, Azure Blob Storage, Data Lake Storage Gen2, Hadoop, Pysark, Kafka, HBase, Airflow, MySQL, PostgreSQL, Pandas, Matplotlib, Seaborn, Prompt Engineering, Langchain, Python, HTML, JavaScript, C, Docker, Git, CI/CD, Postman API, Database Design, Data Engineering, SQL Server, ETL Processes, and Python Scripting."
+    },
+    {
+        "question": "Thank you ",
+        "answer": "You're welcome! If you have any other questions, feel free to ask."
+    },
+    {
+        "question": "previous questions ",
+        "answer": "The context does not provide a question that needs to be answered. Could you please ask a specific question?"
+    },
+    {
+        "question": "list of previous questions",
+        "answer": "The provided context does not contain a question. Can you please specify your question?"
+    },
+    {
+        "question": "contact details of ram",
+        "answer": "The contact details for Ram are as follows: phone number +19714277383 and email address tummalaramgopal@gmail.com. He is located in Austin, TX."
+    },
+    {
+        "question": "hi",
+        "answer": "Hello! How can I assist you today?"
+    },
+    {
+        "question": "who are you ?",
+        "answer": "I'm an artificial intelligence designed to answer questions and facilitate conversations."
+    },
+    {
+        "question": "cool ",
+        "answer": "The context does not provide a question. Could you please ask a specific question?"
+    },
+    {
+        "question": "I'm ram, nice to meet you ",
+        "answer": "I'm sorry, but there seems to be no question asked in the given context, therefore, I can't provide an answer."
+    }
+]

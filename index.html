@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black & White Profile</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .profile-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 2px solid #fff;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        .main-card {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .main-card:hover {
+            background-color: #555;
+            transform: scale(1.05);
+        }
+
+        .main-card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .sub-cards-container {
+            display: none;
+            padding: 1rem 0;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .sub-card {
+            background-color: #111;
+            border-radius: 8px;
+            padding: 2rem;
+            width: calc(50% - 10px);
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s ease;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+
+        .sub-card:hover {
+            background-color: #444;
+        }
+
+        .sub-card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .chat-box {
+            background-color: #111;
+            color: #fff;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            height: 60%;
+            overflow-y: auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 1rem;
+        }
+
+        input.form-input {
+            background-color: #222;
+            color: #fff;
+            border-color: #444;
+            transition: background-color 0.3s ease;
+        }
+
+        input.form-input:focus {
+            background-color: #333;
+        }
+
+        button#send {
+            background-color: #444;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        button#send:hover {
+            background-color: #666;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-left-color: #fff;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex min-h-screen">
+        <!-- Left side: Profile Sections -->
+        <div class="w-1/2 bg-black p-8 shadow-lg" id="left-section">
+            <img src="https://via.placeholder.com/100" alt="Profile Photo" class="profile-photo">
+            <h1 class="text-3xl font-bold mb-4">Ramgopal Tummala</h1>
+
+            <div id="profile-sections">
+                <!-- Experience Card -->
+                <div class="main-card" data-card="experience">
+                    <h3 class="main-card-title">Experience</h3>
+                </div>
+                <div class="sub-cards-container" id="experience-subcards">
+                    <div class="flex flex-wrap gap-4">
+                        <div class="sub-card" style="width: calc(50% - 10px);" data-info="<ul>
+<li>Developed a custom interface that allows clients to upload website PDF documents and test them with bots using a <strong>Retrieval-Augmented Generation (RAG)</strong> application, connected to multiple <strong>large language models (LLMs)</strong>.</li>
+<li>Integrated the <strong>Flask framework</strong> for building the application, ensuring smooth client interaction with the bots.</li>
+<li>Implemented document processing and management through a secure file upload system that allows clients to easily upload and manage their documents.</li>
+<li>Utilized <strong>OpenAI GPT models</strong> for generating answers in JSON format, enhancing user interactions with chatbot functionality for improved client document testing.</li>
+<li>Built a conversational retrieval chain with memory using <strong>Langchain</strong> to store and retrieve context from user queries, improving the chatbot’s efficiency and contextual accuracy.</li>
+<li>Provided an admin portal for managing client interactions, reviewing saved conversations, and handling document uploads with secure login credentials.</li>
+<li>Enabled real-time testing of the client’s data and integrated a robust <strong>vector search mechanism</strong> with <strong>OpenAI embeddings</strong> for document similarity search.</li>
+<li>Engineered robust APIs to harness data from <strong>LLMs</strong>, seamlessly convert datasets into CSV format, and efficiently upload them to <strong>S3</strong>, utilizing the scalable power of <strong>EMR</strong> for optimal performance.</li>
+<li>Implemented a backup strategy by creating snapshots for <strong>Postgres databases</strong> and uploading them to <strong>S3</strong>, enhancing data integrity and ensuring rapid disaster recovery.</li>
+<li>Utilized <strong>AWS Glue</strong> to extract data from <strong>S3</strong>, transform it, and load it into <strong>Snowflake</strong>.</li>
+<li>Implemented triggers to run <strong>AWS Lambda functions</strong> on S3 uploads and maintained <strong>CloudWatch logs</strong>.</li>
+<li>Migrated jobs from <strong>EMR</strong> to <strong>AWS Glue</strong>, setting up necessary <strong>IAM roles</strong> for service access.</li>
+</ul>" data-subcard="ai-data-engineer">
+    <h4 class="sub-card-title">AI & Data Engineer</h4>
+    <p>REAN Foundation</p>
+</div>
+
+
+
+                        <div class="sub-card" style="width: calc(50% - 10px);" data-info="Data Engineer at Xpertmatters: Worked on data engineering solutions.">
+                            <h4 class="sub-card-title">Data Engineer</h4>
+                            <p>Xpertmatters</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Card -->
+                <div class="main-card" data-card="projects">
+                    <h3 class="main-card-title">Projects</h3>
+                </div>
+                <div class="sub-cards-container" id="projects-subcards">
+                    <div class="flex flex-wrap gap-4">
+                        <div class="sub-card" style="width: calc(50% - 10px);" data-info="RAG Chatbot: Developed a chatbot using Retrieval Augmented Generation.">
+                            <h4 class="sub-card-title">RAG Chatbot</h4>
+                        </div>
+                        <div class="sub-card" style="width: calc(50% - 10px);" data-info="Automated Data Pipeline: Built an end-to-end data pipeline for automation.">
+                            <h4 class="sub-card-title">Automated Data Pipeline</h4>
+                        </div>
+                        <div class="sub-card" style="width: calc(50% - 10px);" data-info="Machine Learning: Implemented machine learning models for data analysis.">
+                            <h4 class="sub-card-title">Machine Learning</h4>
+                        </div>
+                        <div class="sub-card" style="width: calc(50% - 10px);" data-info="Data Engineering: Designed and implemented data engineering solutions.">
+                            <h4 class="sub-card-title">Data Engineering</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Card -->
+                <div class="main-card" data-card="contact">
+                    <h3 class="main-card-title">Contact</h3>
+                </div>
+                <div class="sub-cards-container" id="contact-subcards">
+                    <div class="sub-card" data-info="Email: ramgopal@example.com">
+                        <h4 class="sub-card-title">Email</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Summary Card -->
+
+        <!-- Right side: Chatbot Interface -->
+        <div class="w-1/2 flex flex-col justify-center items-center p-8">
+            <div class="w-full max-w-2xl bg-gray-900 p-4 rounded-lg shadow-lg">
+                <!-- Chat box -->
+                <div id="chat-box" class="overflow-y-auto h-96 p-4 bg-gray-900 rounded-lg chat-box">
+                    <!-- Chat messages will be appended here -->
+                </div>
+                <div class="mt-4">
+                    <div class="flex items-center">
+                        <input type="hidden" id="subcard-context" value="" />
+                        <input id="question" type="text" placeholder="Ask a question..." class="form-input w-full px-4 py-2 rounded-l-lg">
+                        <button id="send" class="text-white font-bold py-2 px-4 rounded-r-lg">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            // Collapse all sub-cards at the start
+            $('.sub-cards-container').hide();
+
+            // Click event for expanding/collapsing sub-cards
+            $('.main-card').on('click', function () {
+                var cardType = $(this).data('card');
+                $('#' + cardType + '-subcards').slideToggle();
+            });
+
+            // Click event for sub-cards
+            $('.sub-card').on('click', function () {
+                var info = $(this).data('info');
+                var subcardName = $(this).data('subcard');
+                displaySubCardInfo(info);
+                $("#subcard-context").val(info); // Set the sub-card context in the hidden input
+
+                // Send dynamic question to the bot with the sub-card name
+
+            });
+
+            function displaySubCardInfo(info) {
+                // Hide the main profile section instead of reloading the page
+                $('#profile-sections').hide();
+                $('#left-section').append(`
+                    <div id="subcard-details" class="p-8">
+                        <h2 class="text-2xl font-bold mb-4">Details</h2>
+                        <p>${info}</p>
+                        <button id="back-button" class="mt-4 bg-gray-700 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded">Back</button>
+                    </div>
+                `);
+
+                // Back button functionality to return to the full view without reloading
+                $('#back-button').on('click', function () {
+                    $('#subcard-details').remove();
+                    $('#profile-sections').show(); // Show the main profile section
+                });
+            }
+
+            // Send question on button click for the chatbot
+            $('#send').on('click', function (e) {
+                e.preventDefault();
+                var question = $('#question').val();
+                if (question.trim() === '') return;
+                $('#question').val('');
+                sendQuestion(question);
+            });
+
+            function sendQuestion(question) {
+                var chatBox = $('#chat-box');
+                var subcardContext = $('#subcard-context').val(); // Get the sub-card context
+
+                var userQuestion = $('<div class="text-right my-2"><strong>You:</strong> ' + question + '</div>');
+                chatBox.append(userQuestion);
+
+                var thinkingMessage = $('<div class="thinking" id="thinking-message"><strong>Bot:</strong> Loading<span class="spinner"></span></div>');
+                chatBox.append(thinkingMessage);
+                chatBox.scrollTop(chatBox[0].scrollHeight);
+
+                // Simulate bot response and highlight relevant section
+                setTimeout(function () {
+                    $.ajax({
+                        url: '/ask',
+                        method: 'POST',
+                        data: { question: question },
+                        success: function (response) {
+                            $('#thinking-message').remove();
+
+                            var botAnswer = $('<div class="text-left my-2 text-gray-200 fade-in-up"><strong>Bot:</strong> ' + response.answer + '</div>');
+                            chatBox.append(botAnswer);
+                            chatBox.scrollTop(chatBox[0].scrollHeight);
+                        },
+                        error: function (xhr, status, error) {
+                            $('#thinking-message').remove();
+                            var errorMsg = $('<div class="text-left my-2 text-red-400 fade-in-up"><strong>Bot:</strong> An error occurred. Please try again.</div>');
+                            chatBox.append(errorMsg);
+                            chatBox.scrollTop(chatBox[0].scrollHeight);
+                        }
+                    });
+                }, 1500);
+            }
+        });
+    </script>
+</body>
+
+</html>
